@@ -116,7 +116,7 @@ const Projects: React.FC = () => {
           {filterOpen && (
             <div
               className="absolute top-full mt-2 w-full bg-[#f8f1de] border-2 
-                      border-[#052f4f] shadow-lg z-10 rounded-xl"
+                      border-[#052f4f] shadow-lg z-50 rounded-xl"
             >
               {techOptions.map((tech) => (
                 <div
