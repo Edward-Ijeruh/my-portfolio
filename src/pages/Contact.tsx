@@ -6,7 +6,7 @@ import { FiMail, FiPhone, FiMessageCircle } from "react-icons/fi";
 export default function ContactPage() {
   return (
     <main
-      className="max-w-7xl mx-auto px-6 py-6 md:px-16 md:py-24"
+      className="max-w-7xl mx-auto md:h-[90vh] px-6 py-6 md:px-16 md:py-24"
       style={{ fontFamily: "var(--font-poppins), sans-serif" }}
     >
       {/* Page Heading */}

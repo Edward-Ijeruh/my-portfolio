@@ -10,7 +10,7 @@ import {
 const Hero: React.FC = () => {
   return (
     <section
-      className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-6 py-6 md:px-16 md:py-24"
+      className="max-w-7xl mx-auto md:h-[90vh] flex flex-col-reverse md:flex-row items-center justify-between px-6 py-6 md:px-16 md:py-24"
       style={{ fontFamily: "var(--font-poppins), sans-serif" }}
     >
       {/* Left Section */}
