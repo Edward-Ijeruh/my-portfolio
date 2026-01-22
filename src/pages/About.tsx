@@ -48,7 +48,7 @@ const AboutPage: React.FC = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          <div className="w-72 h-72 md:w-96 md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-[#052f4f]/20">
+          <div className="w-80 h-80 md:w-[24rem] md:h-[24rem] rounded-full overflow-hidden shadow-2xl border-4 border-[#052f4f]/20">
             <img
               src="/hero-images/hero-photo.jpeg"
               alt="Edward"
