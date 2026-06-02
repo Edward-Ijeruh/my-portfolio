@@ -123,20 +123,31 @@ const AboutPage: React.FC = () => {
       </section>
 
       {/* Work Experience */}
-      {/* Work Experience */}
       <section className="mb-20">
         <div className="max-w-4xl mx-auto space-y-8">
           {[
             {
               role: "Frontend Developer",
               company: "LanderCraft Technologies",
-              period: "May 2025 - Nov 2025",
+              period: "May 2025 - Present",
               location: "Remote",
               bullets: [
-                "Developed responsive, modern interfaces using React and JavaScript.",
-                "Enhanced accessibility using UX and WCAG principles.",
-                "Diagnosed UI bugs and performance issues.",
-                "Collaborated with Git workflows and code reviews.",
+                "Built and maintained responsive web applications using React, TypeScript, and modern CSS.",
+                "Developed reusable UI components and implemented mobile-first designs.",
+                "Improved accessibility, performance, and cross-browser compatibility.",
+                "Collaborated with designers and engineers through Git workflows, code reviews, and pull requests.",
+              ],
+            },
+            {
+              role: "Business Applications Contributor",
+              company: "Ibadan Electricity Distribution Company (IBEDC)",
+              period: "Jan 2024 - Oct 2024",
+              location: "Oyo, Nigeria",
+              bullets: [
+                "Supported the development and maintenance of internal business applications.",
+                "Implemented UI enhancements based on user feedback and operational requirements.",
+                "Assisted with API integrations and system documentation.",
+                "Participated in stakeholder meetings and supported user training initiatives.",
               ],
             },
             {
@@ -145,20 +156,9 @@ const AboutPage: React.FC = () => {
               period: "Jul 2021 - Sep 2022",
               location: "Rivers, Nigeria",
               bullets: [
-                "Built scalable and cross-browser friendly interfaces.",
-                "Performed testing, debugging, and performance optimization.",
-                "Integrated reusable UI components to improve usability.",
-              ],
-            },
-            {
-              role: "Business Applications Contributor",
-              company: "Ibadan Electricity Distribution Company",
-              period: "Jan 2024 - Oct 2024",
-              location: "Oyo, Nigeria",
-              bullets: [
-                "Contributed to internal business software development.",
-                "Improved operational efficiency through UI enhancements.",
-                "Assisted backend teams with API integration.",
+                "Assisted in developing responsive web applications and UI components.",
+                "Performed testing, debugging, and cross-browser compatibility checks.",
+                "Supported implementation of frontend features and layout improvements.",
               ],
             },
           ].map((exp, i) => (

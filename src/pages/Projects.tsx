@@ -33,14 +33,14 @@ const projectsDB = [
     link: "https://echo-mindd.netlify.app/",
     img: "/project-images/echomind-sc-v2.png",
   },
-  {
-    title: "Scholarra",
-    description:
-      "A platform aimed at helping Nigerian students discover scholarships",
-    tech: ["Next.js", "Firebase", "Tailwind"],
-    link: "https://scholarra.netlify.app/",
-    img: "/project-images/scholarra-sc.png",
-  },
+  // {
+  //   title: "Scholarra",
+  //   description:
+  //     "A platform aimed at helping Nigerian students discover scholarships",
+  //   tech: ["Next.js", "Firebase", "Tailwind"],
+  //   link: "https://scholarra.netlify.app/",
+  //   img: "/project-images/scholarra-sc.png",
+  // },
 ];
 
 const Projects: React.FC = () => {
