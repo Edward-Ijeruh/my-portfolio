@@ -4,12 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import App from "./App";
 
-import Hero from "./pages/Hero";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-
 import "./index.css";
+import Home from "./pages/Home";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -17,12 +13,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <App>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </App>
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
