@@ -204,13 +204,9 @@ const Home: React.FC = () => {
           </motion.div>
         </div>
 
-        <div className="mt-16 md:mt-20 border-t border-[#052f4f]/20 pt-6 flex items-center justify-between">
-          <span className="text-sm uppercase tracking-[0.2em]">
+        <div className="mt-16 md:mt-20 border-t border-[#052f4f]/20 pt-6 flex flex-col items-center justify-center gap-3">
+          <span className="text-md uppercase tracking-[0.2em]">
             Scroll to explore
-          </span>
-
-          <span className="text-sm text-[#052f4f]/60">
-            React · Next.js · TypeScript
           </span>
         </div>
       </section>
