@@ -204,7 +204,7 @@ const Home: React.FC = () => {
           </motion.div>
         </div>
 
-        <div className="mt-16 md:mt-20 border-t border-[#052f4f]/20 pt-6 flex flex-col items-center justify-center gap-3">
+        <div className="hidden md:flex mt-16 md:mt-20 border-t border-[#052f4f]/20 pt-6 flex-col items-center justify-center gap-3">
           <span className="text-md uppercase tracking-[0.2em]">
             Scroll to explore
           </span>
