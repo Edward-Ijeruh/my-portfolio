@@ -127,9 +127,9 @@ const Home: React.FC = () => {
             <h1 className="text-[clamp(3.5rem,8vw,8rem)] leading-[0.9] font-bold tracking-[-0.06em]">
               I build
               <br />
-              <span className="text-[#052f4f]/45">for the</span>
+              <span className="text-[#052f4f]/45">products for</span>
               <br />
-              web.
+              the web.
             </h1>
 
             <p className="mt-8 max-w-xl text-lg md:text-xl text-[#052f4f]/70 leading-relaxed">
