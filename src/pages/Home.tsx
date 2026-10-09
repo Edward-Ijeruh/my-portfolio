@@ -135,8 +135,7 @@ const Home: React.FC = () => {
             <p className="mt-8 max-w-xl text-lg md:text-xl text-[#052f4f]/70 leading-relaxed">
               I'm Edward, a Web Engineer with 3+ years of experience building
               and shipping production web applications. I turn ideas and
-              requirements into reliable, responsive digital products using
-              React, TypeScript, Next.js, and modern web technologies.
+              requirements into reliable digital products.
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8">
