@@ -124,7 +124,7 @@ const Home: React.FC = () => {
               Web Engineer · Nigeria
             </p>
 
-            <h1 className="text-[clamp(3.5rem,8vw,8rem)] leading-[0.9] font-bold tracking-[-0.06em]">
+            <h1 className="text-[clamp(3rem,6.5vw,6.5rem)] leading-[0.95] font-bold tracking-[-0.06em]">
               I build
               <br />
               <span className="text-[#052f4f]/45">products</span>
