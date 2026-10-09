@@ -129,7 +129,7 @@ const Home: React.FC = () => {
               <br />
               <span className="text-[#052f4f]/45">for the</span>
               <br />
-              real world.
+              web.
             </h1>
 
             <p className="mt-8 max-w-xl text-lg md:text-xl text-[#052f4f]/70 leading-relaxed">
