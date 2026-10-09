@@ -121,21 +121,22 @@ const Home: React.FC = () => {
             transition={{ duration: 0.7 }}
           >
             <p className="uppercase tracking-[0.3em] text-sm font-medium mb-6">
-              Frontend Developer · Nigeria
+              Web Engineer · Nigeria
             </p>
 
             <h1 className="text-[clamp(3.5rem,8vw,8rem)] leading-[0.9] font-bold tracking-[-0.06em]">
               I build
               <br />
-              <span className="text-[#052f4f]/45">things for</span>
+              <span className="text-[#052f4f]/45">for the</span>
               <br />
-              the web.
+              real world.
             </h1>
 
             <p className="mt-8 max-w-xl text-lg md:text-xl text-[#052f4f]/70 leading-relaxed">
-              I'm Edward, a frontend developer focused on turning ideas, designs
-              and problems into clean, responsive and memorable digital
-              experiences.
+              I'm Edward, a Web Engineer with 3+ years of experience building
+              and shipping production web applications. I turn ideas and
+              requirements into reliable, responsive digital products using
+              React, TypeScript, Next.js, and modern web technologies.
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8">
@@ -648,29 +649,34 @@ const Home: React.FC = () => {
 
             <div>
               <h2 className="text-4xl md:text-6xl font-semibold leading-tight tracking-[-0.04em]">
-                I like turning
+                I turn
                 <br />
-                <span className="text-[#f8f1de]/45">good ideas</span> into
+                <span className="text-[#f8f1de]/45">complex problems</span>
                 <br />
-                great interfaces.
+                into useful software.
               </h2>
 
               <div className="grid md:grid-cols-2 gap-8 mt-12 text-[#f8f1de]/70 leading-relaxed">
                 <p>
-                  I'm Edward, a frontend developer passionate about creating
-                  clean, responsive and interactive digital experiences.
+                  I'm Edward, a Web Engineer with a background in building
+                  production web applications and digital products. My work
+                  spans frontend architecture, reusable components, API
+                  integrations, authentication flows, and CMS-powered platforms.
                 </p>
 
                 <p>
-                  I enjoy taking an idea from a rough concept to a polished
-                  interface that feels intuitive, performs well and is genuinely
-                  enjoyable to use.
+                  I care about more than getting an interface to work. I focus
+                  on making applications responsive, maintainable, accessible,
+                  and intuitive, while considering performance and the needs of
+                  the people using them. I enjoy collaborating with product,
+                  design, and engineering teams to turn requirements into
+                  reliable solutions.
                 </p>
               </div>
 
               <div className="mt-16 pt-8 border-t border-[#f8f1de]/20">
                 <p className="text-sm uppercase tracking-[0.2em] text-[#f8f1de]/50 mb-6">
-                  I work with
+                  Technologies I work with
                 </p>
 
                 <div className="flex flex-wrap gap-x-8 gap-y-5">
